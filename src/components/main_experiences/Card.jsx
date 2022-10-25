@@ -5,14 +5,14 @@ const Card = () => {
   return (
     <div className="my-[45px]">
       <div className="gap-3 grid grid-cols-5">
-        {mainExperience.map((cities) => (
+        {mainExperience.map((exprience) => (
           <div
-            key={cities.id}
+            key={exprience.id}
             className="w-[255px] h-[350px] mr-10 mb-5 bg-cover bg-center rounded-3xl cursor-pointer flex items-center"
-            style={{ backgroundImage: `url(${cities.background})` }}
+            style={{ backgroundImage: `url(${exprience.background})` }}
           >
             <p className="transform w-[239px] h-[239px] -rotate-90 text-white font-bold text-3xl">
-              {cities.name}
+              {exprience.name}
             </p>
           </div>
         ))}
