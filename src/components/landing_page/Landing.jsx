@@ -3,7 +3,7 @@ import Navbar from "../navbar/Navbar";
 
 const Landing = () => {
   return (
-    <div className="bg-landing bg-cover w-screen h-screen">
+    <div className="bg-landing bg-cover  h-screen">
       <Navbar />
       <div className="flex justify-center pt-[215px] flex-col items-center">
         <h1 className="text-white text-9xl pt-[115px] font-bold">TÜRKİYE</h1>

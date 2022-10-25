@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="cursor-pointer">
         <img src={turkeyLogo} alt="turkey-logo" />
       </div>
-      <div className="flex gap-10 h-[76px] items-center content-end text-2xl">
+      <div className="flex gap-10 h-[76px] items-center content-end text-xl">
         <div className="cursor-pointer">About us</div>
         <div className="cursor-pointer">Contacts</div>
         <FontAwesomeIcon
