@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Wellness",
+    "background": "https://www.kartepehamam.com/wp-content/uploads/2021/06/erkek-hamam-3.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Outdoor & adventure",
+    "background": "https://www.ozbilgsoft.com/wp-content/uploads/2021/07/mountararatsummit-1536x864.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Historical sites",
+    "background": "https://www.gercekhayat.com.tr/wp-content/uploads/2018/07/tepe.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Unesco",
+    "background": "https://i4.hurimg.com/i/hurriyet/75/1110x740/596339b018c7731864ab8d19.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Gastro",
+    "background": "https://cdn.loveandlemons.com/wp-content/uploads/2022/08/mezze-platter.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Museum",
+    "background": "https://isbh.tmgrup.com.tr/sbh/2021/05/25/650x344/arkeoloji-muzelerinin-depolarindaki-eserlerden-bir-1621966512669.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Beach & fun",
+    "background": "https://cesmebook.com/wp-content/uploads/2020/03/boheme-cesme-2020-4-1024x1024.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Learn & study",
+    "background": "https://cdn.istanbul.edu.tr/FileHandler.ashx?f=nL_e0dOJCECyXcDZmbCX1w"
+  },
+  {
+    "id": 9,
+    "name": "Seas",
+    "background": "https://im.haberturk.com/2015/12/22/ver1450784104/1170591_1920x1080.jpg"
+  },
+  {
+    "id": 10,
+    "name": "National parks",
+    "background": "https://www.siirt.bel.tr/kurumlar/siirt.bel.tr/Turizm/Botan-Vadisi/6.jpeg"
+  }
+]
