@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Turkish Breakfast",
+    "background": "https://i.pinimg.com/originals/39/60/83/396083961205d8114e0dc5f5011da8f6.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Turkish Street Food",
+    "background": "https://i20.haber7.net/resize/1300x788//haber/haber7/photos/2021/41/kokorec_neyden_yapiliyor_en_kolay_kokorec_yapmanin_puf_noktalari_1634027297_2572.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Meze Culture",
+    "background": "https://cdn.karar.com/news/1438322.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Unique Foods & Drinks",
+    "background": "https://deraliyerestaurant.com/wp-content/uploads/2022/01/Famous-Turkish-Cuisine-Meals-1030x687.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Fine Dining",
+    "background": "https://imgrosetta.mynet.com.tr/file/14920999/14920999-1200x824.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Healthy Turkish Cuisine",
+    "background": "https://www.yenicaggazetesi.com.tr/d/other/b76ygkfoq8c3umrd0asxhtxwzicnolkj.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Turkish Recipes",
+    "background": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Sigara_B%C3%B6rek.jpg/1280px-Sigara_B%C3%B6rek.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Days of Harvest",
+    "background": "https://www.saraplikuzum.com/wp-content/uploads/2021/05/uzum-hasadi-2.jpg"
+  }
+]
