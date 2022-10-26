@@ -1,5 +1,5 @@
 import React from "react";
-import turkeyLogo from "../../assets/turkiye-logo 1.svg";
+import turkeyLogo from "../../assets/turkiye-logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
