@@ -2,8 +2,7 @@ import Card from "./Card";
 
 const Gastro = () => {
   return (
-    <div className="bg-black">
-      {/* Rengi Değişecek */}
+    <div className="bg-main-bg">
       <div className="pt-[116px] container mx-auto ">
         <h3 className="text-6xl	text-white">
           A wonderland <br />

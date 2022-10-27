@@ -3,8 +3,7 @@ import Card from "./Card";
 
 const Experience = () => {
   return (
-    <div className="bg-black">
-      {/* Rengi Değişecek */}
+    <div className="bg-main-bg">
       <div className="pt-[116px] container mx-auto ">
         <h3 className="text-6xl	text-white">Türkiye experiences</h3>
         <p className="text-white pt-[45px] max-w-[852px]">
