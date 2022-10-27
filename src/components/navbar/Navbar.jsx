@@ -1,11 +1,10 @@
-import React from "react";
 import turkeyLogo from "../../assets/turkiye-logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 const Navbar = () => {
   return (
-    <div className="container mx-auto h-16 pt-5 text-white flex justify-between items-center ">
+    <div className="container mx-auto h-16 text-white flex justify-between items-center ">
       <div className="cursor-pointer">
         <img src={turkeyLogo} alt="turkey-logo" />
       </div>
