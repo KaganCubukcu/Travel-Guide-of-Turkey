@@ -6,6 +6,9 @@ module.exports = {
       backgroundImage: {
         landing: "url('/src/assets/dima.jpg')",
       },
+      colors: {
+        "main-bg": "#252525",
+      },
     },
   },
   plugins: [],
