@@ -5,7 +5,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <div className="container mx-auto h-16 text-white flex justify-between items-center ">
+    <div className="container mx-auto h-16 text-white flex justify-between items-center sticky top-2 z-40 ">
       <Link to="/">
         <div className="cursor-pointer">
           <img src={turkeyLogo} alt="turkey-logo" />
