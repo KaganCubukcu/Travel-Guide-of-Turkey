@@ -1,15 +1,15 @@
 import Footer from "./components/footer/Footer";
-import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/Home";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import CitiesInfo from "./pages/CitiesInfo";
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/cities/:cityname" element={<CitiesInfo />} />
       </Routes>
-      <Footer />
     </>
   );
 }
