@@ -12,7 +12,7 @@ const CitiesSee = () => {
           <>
             <div
               key={city.id}
-              className="bg-cover h-screen text-white sticky top-0"
+              className="bg-cover bg-center	 h-screen text-white sticky top-0"
               style={{
                 backgroundImage: `url(${city.catogories.see.bg})`,
               }}
