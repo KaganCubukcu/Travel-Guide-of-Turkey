@@ -1,4 +1,3 @@
-import Footer from "./components/footer/Footer";
 import Home from "./pages/Home";
 import { Routes, Route } from "react-router-dom";
 import CitiesInfo from "./pages/CitiesInfo";
