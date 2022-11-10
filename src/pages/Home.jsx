@@ -1,3 +1,4 @@
+import Footer from "../components/footer/Footer";
 import Landing from "../components/landing_page/Landing";
 import Main from "../components/main_cities/Main";
 import Experience from "../components/main_experiences/Experience";
@@ -11,6 +12,7 @@ const Home = () => {
       <Experience />
       <Region />
       <Gastro />
+      <Footer />
     </>
   );
 };
