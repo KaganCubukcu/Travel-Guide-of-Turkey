@@ -50,7 +50,7 @@ export const cities = [
     video: "https://www.youtube.com/watch?v=FBJKLk854do",
     catogories: {
       see: {
-        bg: "https://upload.wikimedia.org/wikipedia/commons/4/42/Ku%C5%9Fadas%C4%B1_Overlook.jpg",
+        bg: "https://kusadasihealthtourism.com/wp-content/uploads/2021/08/Adsiz-tasarim-13.png",
         p: "When the city was built in the 16th century, it had three gates and was surrounded by caravansaries and city walls.",
       },
 
@@ -133,7 +133,7 @@ export const cities = [
   },
   {
     name: "Şanlıurfa",
-    id: 6,
+    id: 7,
     p: "Şanlıurfa, one of the oldest centers in the history of civilization, has been the center of many beliefs, from polytheistic to monotheistic religions.",
     video: "https://www.youtube.com/watch?v=dqQzoa7lc5A",
     catogories: {
@@ -150,6 +150,72 @@ export const cities = [
       taste: {
         bg: "https://www.lahmajun.com.tr/images/2021/09/08/newslayt4.jpg",
         p: "It would not be wrong to say that the city, which is home to the oldest archaeological finds in the world, has a “unique cuisine based on the oldest recipes known”. ",
+      },
+    },
+  },
+  {
+    name: "Denizli",
+    id: 8,
+    p: "Located at the crossroads of Anatolia, where the Aegean, Central Anatolia and Mediterranean Regions meet, Denizli has hosted many civilizations throughout history with its geographical location and natural beauties.",
+    video: "https://www.youtube.com/watch?v=r2JEon3FlUg",
+    catogories: {
+      see: {
+        bg: "https://ansiklopedi.vkv.org.tr/getmedia/bf8da231-de4f-4917-ba1a-7b451bfb6d70/Ali_Ihsan_Gokcen-Tiyatro-Hierapolis-Denizli-16-9.jpg.aspx?width=1920&height=1080&ext=.jpg?width=1920&height=1080",
+        p: "Hierapolis, an ancient spa city in the Roman and Byzantine periods and included in the UNESCO World Heritage List, is located 20 km away from Denizli city center. ",
+      },
+
+      touch: {
+        bg: "https://zaferosmanoglu.com.tr/wp-content/uploads/2021/07/Pamukkale.jpg",
+        p: "Thermal waters of Pamukkale have offered healing to many people throughout history.",
+      },
+
+      taste: {
+        bg: "https://cdn.goturkiye.com/denizli/taste-desktop-kapak.jpg",
+        p: "Denizli cuisine draws attention with its unique rich variety of dishes and its registered traditional products such as Tavas baklava, Kale pepper, Serinhisar roasted chickpea, Çameli beans.",
+      },
+    },
+  },
+  {
+    name: "Ankara",
+    id: 9,
+    p: "The Capital City of Turkish Republic where the cultures blended...",
+    video: "https://www.youtube.com/watch?v=DulbJU8jEII",
+    catogories: {
+      see: {
+        bg: "https://www.mertymm.com/images/uploads/Slider/Anitkabir.jpg",
+        p: "An extensive and unique collection of stunning artefacts from Anatolia’s significant archaeological sites can be seen in the Anatolian Civilizations Museum which is located on the south side of Ankara Castle",
+      },
+
+      touch: {
+        bg: "https://upload.wikimedia.org/wikipedia/commons/0/06/Ku%C4%9Fulu_Park%27ta_ku%C4%9Fular.jpg",
+        p: "Traditional shopping streets and areas located around Ankara Citadel and Ulus are among the best places to buy local products and traditional handcrafts.",
+      },
+
+      taste: {
+        bg: "https://img.timeturk.com/resim/dresim/2020/43baa589-d20e-b42b-764e-e6ebfc8dc20d.jpg",
+        p: "Ankara Simit, Döner and Çubuk Pickles are the most known delicacies.",
+      },
+    },
+  },
+  {
+    name: "Elazığ",
+    id: 10,
+    p: "Located in the Upper Euphrates Section of Eastern Anatolia, Elazığ is the homeland of the Euphrates and Tigris rivers that gave life water to Mesopotamia and is a city that has been kneaded with fertile lands and Anatolian culture on a peninsula surrounded by water on three sides, like Turkey, the home of dozens of civilizations.",
+    video: "https://www.youtube.com/watch?v=lutCTfyZhwA",
+    catogories: {
+      see: {
+        bg: "https://cdn.goturkiye.com/elazig/touch-desktop-kapak.jpg",
+        p: "Elazığ, the homeland of the Euphrates and Tigris rivers, has a rich and long history in which many civilizations struggled to dominate its fertile lands.",
+      },
+
+      touch: {
+        bg: "http://www.elaziggezi.com/img/original-img/schema2016-08-30_15-35-28-1472560528.jpg",
+        p: "Euphrates River and Keban Dam Lake that give life to the region, the springs that are source of health, unique lakes, and sunken cities...",
+      },
+
+      taste: {
+        bg: "http://elaziggezi.com/img/original-img/schema32016-09-01_13-53-29-1472727209.jpg",
+        p: "Elazığ cuisine is one of the rich and well-established Anatolian cuisines. It bears the traces of traditional Turkish cuisine culture.",
       },
     },
   },
