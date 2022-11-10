@@ -23,7 +23,7 @@ const Card = () => {
           </Link>
         ))}
       </div>
-      <div className="grid  text-white justify-items-end items-center cursor-pointer">
+      <div className="grid  text-white justify-items-end items-center cursor-pointer mr-10">
         <Link to="/cities">
           <p>More Cities </p>
         </Link>
