@@ -2,7 +2,6 @@ import React from "react";
 import ExperienceLanding from "../components/experience/ExperienceLanding";
 import Experiences from "../components/experience/Experiences";
 import Navbar from "../components/navbar/Navbar";
-import Footer from "../components/footer/Footer";
 
 const Experience = () => {
   return (
@@ -10,7 +9,6 @@ const Experience = () => {
       <Navbar />
       <ExperienceLanding />
       <Experiences />
-      <Footer />
     </div>
   );
 };
