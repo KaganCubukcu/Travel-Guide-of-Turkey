@@ -14,8 +14,7 @@ const Experiences = () => {
   return (
     <>
       {data.categories.map((x, i) => {
-        console.log(x.name);
-        return <SectionLeft key={data.id} name={x.name} bg={x.bg} p={x.p} />;
+        return <SectionLeft key={i} name={x.name} bg={x.bg} p={x.p} />;
       })}
     </>
   );
