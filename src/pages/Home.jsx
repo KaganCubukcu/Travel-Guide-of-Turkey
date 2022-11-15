@@ -10,7 +10,6 @@ const Home = () => {
       <Landing />
       <Main />
       <Experience />
-      <Region />
       <Gastro />
     </>
   );
