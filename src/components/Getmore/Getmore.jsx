@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import getmoreJson from "../../getmoreData.json";
+import getmoreJson from "../../getmoreExpData.json";
 
 const Getmore = () => {
   const getmoreData = getmoreJson.getmore.map((data) => {
