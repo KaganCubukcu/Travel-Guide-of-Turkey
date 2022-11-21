@@ -7,7 +7,6 @@ const Experiences = () => {
   const findURL = (exp) => {
     return exp.URL === experienceName;
   };
-
   const data = experiences.find(findURL);
 
   return (
