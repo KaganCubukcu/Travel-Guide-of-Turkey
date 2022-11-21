@@ -61,11 +61,6 @@ export const experiences = [
         bg: "https://outdoorturkiye.com.tr/storage/blog/c561622c1bb47f69bd6d0bbc3eaf1156.jpg",
         p: "Skydiving is an incredibly easy, safe, and enjoyable way to experience an unforgettable journey through Türkiye’s blue sky!",
       },
-      {
-        name: "Rock climbing",
-        bg: "https://www.discovergreece.com/sites/default/files/2020-12/You%20can%20be%20inverted%20on%20an%20overhang%20with%20the%20incredible%20colours%20of%20the%20Aegean%20as%20a%20backdrop%20in%20the%20morning.jpg",
-        p: "Türkiye is a truly unmatched destination for rock climbers with crags for every season, a variety of available rock-climbing styles, and friendly, hospitable locals.",
-      },
     ],
   },
   {
@@ -354,7 +349,7 @@ export const experiences = [
         p: "İstanbul - a business center with large companies and small start-ups, a metropole of 20 million inhabitants, a meeting point of different cultures, a historical center where the paths of millennia-old civilizations converge...",
       },
       {
-        name: "Discover & work from Bodrum",
+        name: "Discover & work from Dalaman",
         bg: "https://cdn.otuzbeslik.com/img/yazi/bodrumda-nerede-kalmali.post.a1xyj2gpqrni.jpg",
         p: "Bodrum, a district and city in Muğla Province, is in southwest Türkiye, on the turquoise Aegean coast. ",
       },
