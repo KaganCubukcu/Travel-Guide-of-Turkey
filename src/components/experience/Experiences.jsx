@@ -4,7 +4,6 @@ import SectionLeft from "./SectionLeft";
 
 const Experiences = () => {
   const { experienceName } = useParams();
-
   const findURL = (exp) => {
     return exp.URL === experienceName;
   };
