@@ -3,7 +3,8 @@ import { Routes, Route } from "react-router-dom";
 import CitiesInfo from "./pages/CitiesInfo";
 import Experience from "./pages/Experience";
 import Footer from "./components/footer/Footer";
-import Getmorepage from "./pages/Getmorepage";
+import GetmoreExpPage from "./pages/GetmoreExpPage";
+import GetmoreCityPage from "./pages/GetmoreCityPage";
 function App() {
   return (
     <>
@@ -13,8 +14,9 @@ function App() {
         <Route path="/experience/:experienceName" element={<Experience />} />
         <Route
           path="/experience/getmore/:experienceName"
-          element={<Getmorepage />}
+          element={<GetmoreExpPage />}
         />
+        <Route path="/cities/getmore/:cityName" element={<GetmoreCityPage />} />
       </Routes>
       <Footer />
     </>
