@@ -18,10 +18,6 @@ const Navbar = () => {
         <Link to="/contacts">
           <div className="cursor-pointer">Contacts</div>
         </Link>
-        <FontAwesomeIcon
-          icon={faMagnifyingGlass}
-          className="w-6 h-6 cursor-pointer"
-        />
         <FontAwesomeIcon icon={faBars} className="w-6 h-6 cursor-pointer" />
       </div>
     </div>
