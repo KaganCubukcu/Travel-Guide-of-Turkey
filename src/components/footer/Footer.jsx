@@ -10,8 +10,16 @@ const Footer = () => {
           <img src={turkeyLogo} alt="turkey-logo" />
         </div>
         <div className="flex mt-5">
-          <img src={github} alt="github_icon" className="cursor-pointer mr-5" />
-          <img src={linkedin} alt="github_icon" className="cursor-pointer" />
+          <a href="https://www.linkedin.com/in/kagancubukcu/" target="_blank">
+            <img
+              src={github}
+              alt="github_icon"
+              className="cursor-pointer mr-5"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/kagancubukcu/" target="_blank">
+            <img src={linkedin} alt="github_icon" className="cursor-pointer" />
+          </a>
         </div>
         <p className="text-white pt-[45px] max-w-[852px]">
           Created by Kağan Çubukçu
