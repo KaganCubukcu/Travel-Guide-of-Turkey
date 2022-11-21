@@ -116,7 +116,7 @@ export const cities = [
     video: "https://www.youtube.com/watch?v=nNZOy4qfbr8",
     catogories: {
       see: {
-        bg: "https://kusadasihealthtourism.com/wp-content/uploads/2021/08/Adsiz-tasarim-13.png",
+        bg: "https://aydin.bel.tr/content/content/images/bg.jpg",
         p: "Located in the centre of Aydın, the ancient city of Tralleis is the city where the architect Anthemios, who designed Hagia Sophia, and the Physician Alexandros, who has an important place in the history of medicine, were born and raised.",
       },
 
@@ -192,7 +192,7 @@ export const cities = [
       },
 
       taste: {
-        bg: "https://img.timeturk.com/resim/dresim/2020/43baa589-d20e-b42b-764e-e6ebfc8dc20d.jpg",
+        bg: "https://www.simitcidunyasi.com.tr/Webkontrol/uploads/Fck/20.png",
         p: "Ankara Simit, Döner and Çubuk Pickles are the most known delicacies.",
       },
     },
