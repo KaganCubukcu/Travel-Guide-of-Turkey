@@ -25,7 +25,7 @@ export const cities = [
     name: "Erzurum",
     id: 2,
     p: "Going back millenia, Erzurum is one of the oldest cities of Anatolia, and the center of cultural and natural richness of the Eastern Anatolian Region.",
-    video: "https://www.youtube.com/watch?v=FBJKLk854do",
+    video: "https://www.youtube.com/watch?v=4xmuljTICYM",
     catogories: {
       see: {
         bg: "https://pbs.twimg.com/media/D6MCDW3U0AAXLkM?format=jpg&name=4096x4096",
