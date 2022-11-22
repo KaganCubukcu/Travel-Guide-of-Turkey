@@ -1,3 +1,5 @@
+import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
 import mainExperience from "./mainExp.json";
@@ -19,6 +21,15 @@ const Card = () => {
             </div>
           </Link>
         ))}
+      </div>
+      <div className="grid  text-white justify-items-end items-center cursor-pointer mr-10">
+        <Link to="/All-experiences">
+          <p>More Experiences </p>
+        </Link>
+        <FontAwesomeIcon
+          icon={faArrowRightLong}
+          className="w-6 h-6 cursor-pointer  ml-2"
+        />
       </div>
     </div>
   );

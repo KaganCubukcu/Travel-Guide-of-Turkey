@@ -24,7 +24,7 @@ const Card = () => {
         ))}
       </div>
       <div className="grid  text-white justify-items-end items-center cursor-pointer mr-10">
-        <Link to="/cities">
+        <Link to="/All-cities">
           <p>More Cities </p>
         </Link>
         <FontAwesomeIcon
