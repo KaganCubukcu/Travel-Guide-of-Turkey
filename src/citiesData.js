@@ -6,7 +6,7 @@ export const cities = [
     video: "https://www.youtube.com/watch?v=zm3tv07aKSk",
     catogories: {
       see: {
-        bg: "https://3.bp.blogspot.com/-ZOi6tYtP9XA/TgCub43GxHI/AAAAAAAAAvs/J9oidiGCFBM/s1600/bayrakl%25C4%25B1-smyrna.jpg",
+        bg: "https://cdn.goturkiye.com/izmir/2-smyrna.jpg",
         p: "Ancient Smyrna is located on the mound in İzmir Bayraklı. It is a small peninsula that was surrounded by the sea to the west and south in ancient times. ",
       },
 
