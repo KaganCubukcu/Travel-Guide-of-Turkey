@@ -17,11 +17,6 @@ Bu proje [goTürkiye](https://goturkiye.com/) sayfasından esinlenerek react ile
 - React
 - React Router Dom
 
-## Gelecek Güncellemeler
-
-- Şehir ve deneyim sayısı arttırılacaktır
-- Responsive dizayn yapılacak
-
 ## Proje nasıl çalıştırılır
 
 Projeyi klonladıktan sonra;
