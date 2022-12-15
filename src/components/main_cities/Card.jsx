@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Card = () => {
   return (
     <div className="my-[45px]">
-      <div className="gap-3 grid grid-cols-5">
+      <div className="gap-3 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
         {mainCities.map((cities) => (
           <Link to={`/cities/${cities.name}`}>
             <div

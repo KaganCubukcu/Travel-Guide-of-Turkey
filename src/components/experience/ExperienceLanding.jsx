@@ -9,7 +9,10 @@ const ExperienceLanding = () => {
     <div className="text-white w-full h-[1080px]">
       {experiences.map(({ URL, name, id, p, slides }) =>
         URL === experienceName ? (
-          <div key={id} className="flex container mx-auto pt-[60px] h-full">
+          <div
+            key={id}
+            className="flex container mx-auto pt-[60px] h-full md:flex-col lg:flex-row"
+          >
             <div className="flex flex-col justify-center w-1/4">
               <h1 className="text-8xl">{name}</h1>
               <p className="pt-10">{p}</p>

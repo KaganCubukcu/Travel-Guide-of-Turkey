@@ -4,7 +4,7 @@ import gastros from "./gastros.json";
 const Card = () => {
   return (
     <div className="my-[45px]">
-      <div className="gap-5 grid grid-cols-4">
+      <div className="gap-5 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
         {gastros.map((gastro) => (
           <Link to={`/experience/getmore/${gastro.name.replace(/\s/g, "")}`}>
             <div

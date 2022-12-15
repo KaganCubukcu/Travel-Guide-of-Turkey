@@ -1,6 +1,6 @@
 {
   "name": "turkey_guide",
-  "version": "1.0.0.00",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",

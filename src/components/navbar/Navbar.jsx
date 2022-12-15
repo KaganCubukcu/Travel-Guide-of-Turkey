@@ -11,7 +11,7 @@ const Navbar = () => {
     });
   };
   return (
-    <div className="container mx-auto h-16 text-white flex justify-between items-center sticky top-2 z-40 ">
+    <div className="container sm:mx-auto md:px-6 lg:mx-auto h-16 text-white flex justify-between items-center sticky top-2 z-40">
       <div className="flex gap-10">
         <Link to="/All-cities">Cities</Link>
         <Link to="/All-experiences">Experiences</Link>
