@@ -1,41 +1,24 @@
+import ReactPlayer from "react-player";
 import { useParams } from "react-router-dom";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
-import { experiences } from "../../experienceData";
-const ExperienceLanding = () => {
-  const { experienceName } = useParams();
+import { cities } from "../../citiesData";
+
+const CitiesLanding = () => {
+  const { cityname } = useParams();
 
   return (
-    <div className="text-white w-full h-[1080px]">
-      {experiences.map(({ URL, name, id, p, slides }) =>
-        URL === experienceName ? (
+    <div className="text-white w-full h-full">
+      {cities.map(({ name, id, p, video }) =>
+        name === cityname ? (
           <div
             key={id}
-            className="flex container mx-auto pt-[60px] h-full md:flex-col lg:flex-row"
+            className="flex flex-col container mx-auto pt-10 lg:pt-60 lg:flex-row"
           >
-            <div className="flex flex-col justify-center w-1/4">
-              <h1 className="text-8xl">{name}</h1>
+            <div className="flex flex-col justify-center w-full lg:w-1/2">
+              <h1 className="text-4xl lg:text-8xl">{name}</h1>
               <p className="pt-10">{p}</p>
             </div>
-            <div className="flex justify-center items-center w-3/4 ml-[144px]">
-              <Carousel
-                showArrows={false}
-                showThumbs={false}
-                autoPlay={true}
-                infiniteLoop={true}
-                showIndicators={false}
-                showStatus={false}
-              >
-                <div>
-                  <img src={slides[0]} alt="" />
-                </div>
-                <div>
-                  <img src={slides[1]} alt="" />
-                </div>
-                <div>
-                  <img src={slides[2]} alt="" />
-                </div>
-              </Carousel>
+            <div className="flex justify-center items-center w-full lg:w-1/2 lg:ml-10">
+              <ReactPlayer url={video} muted className="w-full" height={731} />
             </div>
           </div>
         ) : null
@@ -44,4 +27,4 @@ const ExperienceLanding = () => {
   );
 };
 
-export default ExperienceLanding;
+export default CitiesLanding;

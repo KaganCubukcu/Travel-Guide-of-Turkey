@@ -25,7 +25,7 @@ const GetmoreExp = () => {
           <h1 className=" text-5xl pt-5">{data.h1}</h1>
           <h4 className=" text-2xl mt-5 mb-5">{data.h4}</h4>
         </div>
-        <div className="container mx-auto pr-96 pb-10">
+        <div className="container mx-auto pr-4 md:pr-96 pb-10">
           {data.categories.map((x, i) => {
             return (
               <p key={i} className="mt-3">
