@@ -29,12 +29,8 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div
-      className={`container sm:mx-auto md:px-6 lg:mx-auto h-16 text-white flex justify-between items-center sticky top-0 z-40  ${
-        scrolled ? "border-b-2 border-white bg-[#252525] text-white" : ""
-      }`}
-    >
-      <div className="flex gap-4 md:gap-10 ">
+    <div className="container sm:mx-auto md:px-6 lg:mx-auto h-16 text-white flex justify-between items-center">
+      <div className="flex gap-4 md:gap-10">
         <Link to="/All-cities" className="text-sm md:text-base">
           Cities
         </Link>
@@ -43,11 +39,11 @@ const Navbar = () => {
         </Link>
       </div>
       <Link to="/">
-        <div className="cursor-pointer mr-[70px] md:mr-[150px] ">
+        <div className="cursor-pointer">
           <img src={turkeyLogo} alt="turkey-logo" className={`h-8 md:h-12`} />
         </div>
       </Link>
-      <div className="flex gap-4 md:gap-10 h-[56px] md:h-[76px] items-center content-end text-base md:text-xl">
+      <div className="flex gap-4 md:gap-10 items-center content-end text-base md:text-xl">
         <div className="cursor-pointer" onClick={handleScroll}>
           Contacts
         </div>
