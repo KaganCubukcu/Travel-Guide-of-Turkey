@@ -39,7 +39,7 @@ const Navbar = () => {
         </Link>
       </div>
       <Link to="/">
-        <div className="cursor-pointer">
+        <div className="cursor-pointer w-40">
           <img src={turkeyLogo} alt="turkey-logo" className={`h-8 md:h-12`} />
         </div>
       </Link>
