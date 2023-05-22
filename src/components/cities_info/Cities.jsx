@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import { cities } from "../../citiesData";
+import { cities } from "../../data/cities";
 
 const CitiesSee = () => {
   const { cityname } = useParams();

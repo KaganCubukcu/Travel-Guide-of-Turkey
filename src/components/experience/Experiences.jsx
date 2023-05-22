@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { experiences } from "../../experienceData";
+import { experiences } from "../../data/experiences";
 import SectionLeft from "./SectionLeft";
 
 const Experiences = () => {

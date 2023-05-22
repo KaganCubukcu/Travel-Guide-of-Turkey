@@ -1,6 +1,6 @@
 import ReactPlayer from "react-player";
 import { useParams } from "react-router-dom";
-import { cities } from "../../citiesData";
+import { cities } from "../../data/cities";
 
 const CitiesLanding = () => {
   const { cityname } = useParams();

@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
-
+import videoBg from "../../assets/video.mp4";
 const Landing = () => {
   const handleScroll = () => {
     const element = document.getElementById("main-section");
@@ -9,9 +9,17 @@ const Landing = () => {
     });
   };
   return (
-    <div className="bg-landing bg-cover h-screen pt-3">
+    <div className="h-screen pt-3 relative">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        src={videoBg}
+        className="absolute inset-0 object-cover w-full h-full z-0"
+      ></video>
       <Navbar />
-      <div className="flex justify-center flex-col items-center h-screen">
+      <div className="flex justify-center flex-col items-center h-screen z-10 absolute inset-0">
         <h1 className="text-white text-3xl md:text-4xl lg:text-8xl font-bold text-center px-4">
           TÜRKİYE
         </h1>
