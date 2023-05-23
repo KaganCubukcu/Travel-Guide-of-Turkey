@@ -160,7 +160,7 @@ export const cities = [
     video: "https://www.youtube.com/watch?v=r2JEon3FlUg",
     catogories: {
       see: {
-        bg: "https://ansiklopedi.vkv.org.tr/getmedia/bf8da231-de4f-4917-ba1a-7b451bfb6d70/Ali_Ihsan_Gokcen-Tiyatro-Hierapolis-Denizli-16-9.jpg.aspx?width=1920&height=1080&ext=.jpg?width=1920&height=1080",
+        bg: "https://cdn.goturkiye.com/denizli/see-desktop-kapak.jpg",
         p: "Hierapolis, an ancient spa city in the Roman and Byzantine periods and included in the UNESCO World Heritage List, is located 20 km away from Denizli city center. ",
       },
 

@@ -3,7 +3,7 @@ import Navbar from "../components/navbar/Navbar";
 
 const GetmoreCityPage = () => {
   return (
-    <div className="bg-main-bg pt-3">
+    <div className="bg-black">
       <Navbar />
       <GetmoreCity />
     </div>

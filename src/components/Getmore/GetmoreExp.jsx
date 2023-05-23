@@ -20,7 +20,7 @@ const GetmoreExp = () => {
           backgroundImage: `url(${data.background})`,
         }}
       ></div>
-      <div className="w-full -mt-20 bg-gradient-to-r from-[#252525]">
+      <div className="w-full -mt-20 bg-gradient-to-r from-[#000000]">
         <div className="container mx-auto">
           <h1 className=" text-5xl pt-5">{data.h1}</h1>
           <h4 className=" text-2xl mt-5 mb-5">{data.h4}</h4>

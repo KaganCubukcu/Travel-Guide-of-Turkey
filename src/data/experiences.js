@@ -115,7 +115,7 @@ export const experiences = [
       },
       {
         name: "Aegean Sea",
-        bg: "https://www.portakalbahcesi.com/wp-content/uploads/adrasan-1.jpg",
+        bg: "https://cdn.goturkiye.com/seas/2-seas-of-turkiye-aegean-desktop-kapak.jpg",
         p: "The Aegean Sea with its beautiful islands, coves, and fascinating coastline, is an all-time-favorite for tourists from around the world.",
       },
       {
@@ -146,7 +146,7 @@ export const experiences = [
     categories: [
       {
         name: "Mediterranean Türkiye",
-        bg: "https://turkishmuseums.com/Uploads/M%C3%BCze/Foto/Foto%C4%9Fraflar/ea9cb793-bad4-480c-9135-c45cb18365b1.jpg",
+        bg: "https://cdn.goturkiye.com/unesco/1-mediterranean-desktop-kapak.jpg",
         p: "Karain Cave lies 35 km north of Antalya. It is one of the six caves with evidence of prehistoric settlement discovered in this region, indicating the importance of early human activity in the area.",
       },
       {
@@ -156,7 +156,7 @@ export const experiences = [
       },
       {
         name: "Southeastern & Eastern Anatolia Türkiye",
-        bg: "https://61medyacom.teimg.com/crop/1280x720/61medya-com/uploads/2022/03/ani-harabeleri-kars.jpg",
+        bg: "https://cdn.goturkiye.com/unesco/1-southeasterneastern-desktop-kapak.jpg",
         p: "Ani is located 50 km east of Kars, at the Armenian border where the river Arpaçay forms a natural border between the two countries.",
       },
       {
@@ -309,7 +309,7 @@ export const experiences = [
       },
       {
         name: "National parks Black Sea",
-        bg: "https://neokaravan.com/images/yedigoller-milli-parki-5-k.jpg",
+        bg: "https://cdn.goturkiye.com/nationalparks/black-sea-desktop-kapak.jpg",
         p: "The pristine natural wonders of the Black Sea attract visitors in all four seasons of the year.",
       },
       {
@@ -355,7 +355,7 @@ export const experiences = [
       },
       {
         name: "Working in Türkiye",
-        bg: "https://www.baylanajans.com.tr/wp-content/uploads/2022/08/dijital-gocebelik-nedir.jpg",
+        bg: "https://cdn.goturkiye.com/digitalnomads/03-working-in-turkiye-desktop-kapak.jpg",
         p: "Citizens of fifteen countries are allowed to enter Türkiye with their national identification cards (IDs).",
       },
     ],
@@ -396,7 +396,7 @@ export const experiences = [
       },
       {
         name: "Beaches Mediterranean",
-        bg: "https://www.portakalbahcesi.com/wp-content/uploads/adrasan-1.jpg",
+        bg: "https://cdn.goturkiye.com/beachandfun/beaches-mediterranean-turkiye-desktop-kapak.jpg",
         p: "The 1,600 km long Mediterranean Coastline of Türkiye is known as the Turkish Riviera or, simply, the Turquoise Coast. It is home to some of the best beaches and resorts in the world.",
       },
       {

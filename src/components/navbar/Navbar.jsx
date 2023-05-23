@@ -29,7 +29,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="container sm:mx-auto md:px-6 lg:mx-auto h-16 text-white flex justify-between items-center absolute inset-0">
+    <div className="container sm:mx-auto md:px-6 lg:mx-auto h-16 text-white flex justify-between items-center absolute inset-0 z-40">
       <div className="flex gap-4 md:gap-10">
         <Link to="/All-cities" className="text-sm md:text-base">
           Cities

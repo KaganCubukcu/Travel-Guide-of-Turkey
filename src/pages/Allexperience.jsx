@@ -5,9 +5,9 @@ import Navbar from "../components/navbar/Navbar";
 
 const Allexperience = () => {
   return (
-    <div className="bg-main-bg w-full h-full ">
+    <div className="bg-black w-full h-full ">
       <Navbar />
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 container mx-auto pt-10">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 container mx-auto pt-24">
         {experiences.map((experience) => (
           <Link to={`/experience/${experience.name.replace(/\s/g, "")}`}>
             <div

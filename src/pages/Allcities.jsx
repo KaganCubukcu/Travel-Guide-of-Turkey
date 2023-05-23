@@ -5,9 +5,9 @@ import cities from "../components/main_cities/mainCities.json";
 import Navbar from "../components/navbar/Navbar";
 const Allcities = () => {
   return (
-    <div className="bg-main-bg w-full h-full ">
+    <div className="bg-black w-full h-full">
       <Navbar />
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 container mx-auto pt-10">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 container mx-auto pt-24">
         {cities.map((city) => (
           <Link to={`/cities/${city.name}`}>
             <div

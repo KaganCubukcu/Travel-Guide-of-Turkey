@@ -23,7 +23,7 @@ const CitiesSee = () => {
                   {city.catogories.see.p}
                 </p>
                 <Link to={`/cities/getmore/see-${city.name}`}>
-                  <button className="bg-main-bg flex justify-center items-center rounded-xl w-[100px] h-[40px] hover:bg-[#2a2a2a] ease-in-out duration-300 ">
+                  <button className="bg-black flex justify-center items-center rounded-xl w-[100px] h-[40px] hover:bg-white hover:text-black ease-in-out duration-300 ">
                     Get more
                   </button>
                 </Link>
