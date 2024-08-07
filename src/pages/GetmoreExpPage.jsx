@@ -1,4 +1,4 @@
-import Getmore from "../components/Getmore/GetmoreExp";
+import Getmore from "../components/get-more/GetmoreExp";
 import Navbar from "../components/navbar/Navbar";
 
 const GetmoreExpPage = () => {

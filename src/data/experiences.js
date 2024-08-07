@@ -19,7 +19,7 @@ export const experiences = [
       // section2
       {
         name: "Thermals & Springs",
-        bg: "https://www.pointholiday.com/ResimGoster.aspx?resim=Agac/58/PAMUKKALE_1_.JPG",
+        bg: "https://cdn.goturkiye.com/denizli/see-desktop-kapak.jpg",
         p: "Natural Hot Springs have been resources to prevent and treat diseases, reduce stress and improve the quality of life since antiquity.",
       },
       // section3

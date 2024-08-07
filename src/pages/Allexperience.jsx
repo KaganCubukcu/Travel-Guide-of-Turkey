@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import experiences from "../components/main_experiences/mainExp.json";
+import experiences from "../components/main-experiences/mainExp.json";
 import Navbar from "../components/navbar/Navbar";
 
 const Allexperience = () => {

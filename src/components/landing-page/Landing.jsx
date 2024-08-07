@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
-import videoBg from "../../assets/video.mp4";
+import { Carousel } from "react-responsive-carousel";
 const Landing = () => {
   const handleScroll = () => {
     const element = document.getElementById("main-section");
@@ -9,15 +9,8 @@ const Landing = () => {
     });
   };
   return (
-    <div className="h-screen pt-3 relative">
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        src={videoBg}
-        className="absolute inset-0 object-cover w-full h-full z-0"
-      ></video>
+    <div className="h-screen relative">
+      <img src="https://cdn.goturkiye.com/goturkiye/1920x1080-74.jpg" alt="landing1" className="absolute inset-0 object-cover w-full h-full z-0" />
       <Navbar />
       <div className="flex justify-center flex-col items-center h-screen z-10 absolute inset-0">
         <h1 className="text-white text-3xl md:text-4xl lg:text-8xl font-bold text-center px-4">

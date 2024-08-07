@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import cities from "../components/main_cities/mainCities.json";
+import cities from "../components/main-cities/mainCities.json";
 import Navbar from "../components/navbar/Navbar";
 const Allcities = () => {
   return (

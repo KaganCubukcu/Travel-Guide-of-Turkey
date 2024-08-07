@@ -1,4 +1,4 @@
-import GetmoreCity from "../components/Getmore/GetmoreCity";
+import GetmoreCity from "../components/get-more/GetmoreCity";
 import Navbar from "../components/navbar/Navbar";
 
 const GetmoreCityPage = () => {
