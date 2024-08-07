@@ -1,7 +1,7 @@
-import Landing from "../components/landing_page/Landing";
-import Main from "../components/main_cities/Main";
-import Experience from "../components/main_experiences/Experience";
-import Gastro from "../components/main_gastro/Gastro";
+import Landing from "../components/landing-page/Landing";
+import Main from "../components/main-cities/Main";
+import Experience from "../components/main-experiences/Experience";
+import Gastro from "../components/main-gastro/Gastro";
 
 const Home = () => {
   return (
