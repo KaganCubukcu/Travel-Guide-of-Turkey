@@ -1,25 +1,25 @@
-# Türkiye Gezi Rehberi Projesi
+# Turkey Travel Guide Project
 
-Siteye gitmek için -> https://travel-guide-of-turkey.vercel.app/
+To visit the site -> https://travel-guide-of-turkey.vercel.app/
 
-## Proje Açıklaması
+## Project Description
 
-Bu proje [goTürkiye](https://goturkiye.com/) sayfasından esinlenerek react ile oluşturulmuş, Türkiye'de yaşayanlar veya yurt dışından Türkiye'ye gelip gezmek isteyenler veya bilgi almak isteyenler için bir rehber niteliğindedir.
+This project is inspired by the [goTürkiye](https://goturkiye.com/) page and created with React. It serves as a guide for those living in Turkey, those who want to visit Turkey from abroad, or those who want to get information.
 
-## Proje içerisinde şu bilgiler bulunur
+## The project includes the following information
 
-- Türkiye'deki iller ve bu illerde yapılabilecek aktiviteler
-- Türkiye'de yapılabilecek aktiviteler
-- Türk mutfağından lezzetler
+- Cities in Turkey and activities that can be done in these cities
+- Activities that can be done in Turkey
+- Delicacies from Turkish cuisine
 
-## Kullanılan teknolojiler
+## Technologies used
 
 - React
 - React Router Dom
 
-## Proje nasıl çalıştırılır
+## How to run the project
 
-Projeyi klonladıktan sonra;
+After cloning the project;
 
 - `npm install`
 - `npm start`
