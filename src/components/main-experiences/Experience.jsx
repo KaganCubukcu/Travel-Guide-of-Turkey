@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card";
+import MainExperiencesCard from "./MainExperiencesCard";
 
 const Experience = () => {
   return (
@@ -12,7 +12,7 @@ const Experience = () => {
           destinations, visiting Türkiye is an unforgettable experience.
         </p>
         <div className="flex">
-          <Card />
+          <MainExperiencesCard />
         </div>
       </div>
     </div>

@@ -1,29 +1,36 @@
+import React from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
+import Layout from "./components/layout/Layout";
 import Home from "./pages/Home";
-import { Routes, Route } from "react-router-dom";
 import CitiesInfo from "./pages/CitiesInfo";
 import Experience from "./pages/Experience";
-import Footer from "./components/footer/Footer";
 import GetmoreExpPage from "./pages/GetmoreExpPage";
 import GetmoreCityPage from "./pages/GetmoreCityPage";
 import Allcities from "./pages/Allcities";
 import Allexperience from "./pages/Allexperience";
+import NotFound from "./pages/NotFound";
+
+const routes = [
+  { path: "/", element: <Home /> },
+  { path: "/All-cities", element: <Allcities /> },
+  { path: "/All-experiences", element: <Allexperience /> },
+  { path: "/cities/:cityname", element: <CitiesInfo /> },
+  { path: "/experience/:experienceName", element: <Experience /> },
+  { path: "/experience/getmore/:experienceName", element: <GetmoreExpPage /> },
+  { path: "/cities/getmore/:cityName", element: <GetmoreCityPage /> },
+  { path: "/404", element: <NotFound /> },
+  { path: "*", element: <Navigate to="/404" replace /> },
+];
+
 function App() {
   return (
-    <>
+    <Layout>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/All-cities" element={<Allcities />} />
-        <Route path="/All-experiences" element={<Allexperience />} />
-        <Route path="/cities/:cityname" element={<CitiesInfo />} />
-        <Route path="/experience/:experienceName" element={<Experience />} />
-        <Route
-          path="/experience/getmore/:experienceName"
-          element={<GetmoreExpPage />}
-        />
-        <Route path="/cities/getmore/:cityName" element={<GetmoreCityPage />} />
+        {routes.map((route, index) => (
+          <Route key={index} path={route.path} element={route.element} />
+        ))}
       </Routes>
-      <Footer />
-    </>
+    </Layout>
   );
 }
 

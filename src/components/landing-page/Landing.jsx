@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
-import { Carousel } from "react-responsive-carousel";
+
 const Landing = () => {
   const handleScroll = () => {
     const element = document.getElementById("main-section");
@@ -10,7 +10,11 @@ const Landing = () => {
   };
   return (
     <div className="h-screen relative">
-      <img src="https://cdn.goturkiye.com/goturkiye/1920x1080-74.jpg" alt="landing1" className="absolute inset-0 object-cover w-full h-full z-0" />
+      <img
+        src="https://images.unsplash.com/photo-1583060759195-b109e4cd6166?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="landing1"
+        className="absolute inset-0 object-cover w-full h-full z-0"
+      />
       <Navbar />
       <div className="flex justify-center flex-col items-center h-screen z-10 absolute inset-0">
         <h1 className="text-white text-3xl md:text-4xl lg:text-8xl font-bold text-center px-4">

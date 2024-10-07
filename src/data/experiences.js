@@ -5,8 +5,8 @@ export const experiences = [
     id: 1,
     p: "Traditional Spa Wellness Therapies are one of the best ways to overcome the barriers preventing us from being the best versions of ourselves.",
     slides: [
-      " https://i0.wp.com/istanbulvacationtips.com/wp-content/uploads/2019/10/what-to-expect-turkish-hamam-istanbul-vacation-tips.jpg",
-      " https://www.ramadaplazaistanbul.com/images/thumb/1920x1080/gal_02082019_ramadaplazaistanbulcenterbeatusspa_3.jpg",
+      "https://i0.wp.com/istanbulvacationtips.com/wp-content/uploads/2019/10/what-to-expect-turkish-hamam-istanbul-vacation-tips.jpg",
+      "https://www.ramadaplazaistanbul.com/images/thumb/1920x1080/gal_02082019_ramadaplazaistanbulcenterbeatusspa_3.jpg",
       "https://www.sivastermal.com.tr/img/spa-hamam/spa-1.jpg",
     ],
     categories: [
@@ -363,7 +363,7 @@ export const experiences = [
   {
     URL: "Beach&fun",
     name: "Beach & fun",
-    id: 9,
+    id: 10,
     p: "As a sunshine holiday destination Türkiye cannot be bettered. As a country it has everything that you could ask for…",
     slides: [
       // image 1

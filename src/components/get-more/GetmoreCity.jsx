@@ -1,16 +1,19 @@
 import { useParams } from "react-router-dom";
-import getmoreCityJson from "../../data/moreCities.json";
+import allData from "../../data/allData.json";
 
 const GetmoreCity = () => {
-  const getmoreData = getmoreCityJson.getmore.map((data) => {
+  const { cityName } = useParams();
+
+  const getmoreData = allData.getmore.map((data) => {
     return data;
   });
 
-  const { cityName } = useParams();
   const findID = (city) => {
     return city.id === cityName;
   };
+
   const data = getmoreData.find(findID);
+
   return (
     <div className="text-white">
       <div

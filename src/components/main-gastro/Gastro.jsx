@@ -1,4 +1,4 @@
-import Card from "./Card";
+import GastroCard from "./GastroCard";
 
 const Gastro = () => {
   return (
@@ -11,7 +11,7 @@ const Gastro = () => {
           here is mind-blowing! It is a true culinary paradise!
         </p>
         <div className="flex">
-          <Card />
+          <GastroCard />
         </div>
       </div>
     </div>

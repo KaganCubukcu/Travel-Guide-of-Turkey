@@ -1,6 +1,5 @@
 import React from "react";
-import Card from "./Card";
-
+import MainCitiesCard from "./MainCitiesCard";
 const Main = () => {
   return (
     <div id="main-section" className="bg-black">
@@ -12,7 +11,7 @@ const Main = () => {
           lands, you will wish your trip could go on forever!
         </p>
         <div className="flex">
-          <Card />
+          <MainCitiesCard />
         </div>
       </div>
     </div>
