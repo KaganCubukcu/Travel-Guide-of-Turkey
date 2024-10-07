@@ -8,18 +8,49 @@ This project is inspired by the [goTürkiye](https://goturkiye.com/) page and cr
 
 ## The project includes the following information
 
-- Cities in Turkey and activities that can be done in these cities
-- Activities that can be done in Turkey
-- Delicacies from Turkish cuisine
+- Detailed information about various cities in Turkey
+- Popular tourist attractions and historical sites
+- Activities and experiences available in different regions
+- Traditional Turkish cuisine and local delicacies
+- Cultural events and festivals
+- Practical travel tips and recommendations
 
 ## Technologies used
 
 - React
 - React Router Dom
+- Tailwind CSS for styling
+- JSON for data management
+- Responsive design for mobile and desktop views
+- GitHub for version control
+- Vercel for deployment
 
 ## How to run the project
 
-After cloning the project;
+To get this project up and running on your local machine, follow these steps:
 
-- `npm install`
-- `npm start`
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/KaganCubukcu/Travel-Guide-of-Turkey.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```
+   cd Travel-Guide-of-Turkey
+   ```
+
+3. Install the dependencies:
+
+   ```
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```
+   npm start
+   ```
+
+5. Open your browser and visit `http://localhost:3000` to view the application.
