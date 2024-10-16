@@ -9,9 +9,8 @@ const CitiesSee = () => {
       {/* see */}
       {cities.map((city) =>
         city.name === cityname ? (
-          <>
+          <div key={city.id}>
             <div
-              key={city.id}
               className="bg-cover bg-center text-white sticky top-0 h-[1080px]"
               style={{
                 backgroundImage: `url(${city.categories.see.backgroundImage})`,
@@ -67,7 +66,7 @@ const CitiesSee = () => {
                 </Link>
               </div>
             </div>
-          </>
+          </div>
         ) : null
       )}
     </div>

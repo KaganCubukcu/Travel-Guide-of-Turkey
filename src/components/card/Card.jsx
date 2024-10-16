@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
 const Card = ({ items, linkPrefix, showMoreLink, moreText, gridCols }) => {
   return (
@@ -28,10 +26,6 @@ const Card = ({ items, linkPrefix, showMoreLink, moreText, gridCols }) => {
           <Link to={showMoreLink}>
             <p>{moreText}</p>
           </Link>
-          <FontAwesomeIcon
-            icon={faArrowRightLong}
-            className="w-6 h-6 cursor-pointer ml-2"
-          />
         </div>
       )}
     </div>

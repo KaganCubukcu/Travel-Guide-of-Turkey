@@ -4,15 +4,12 @@ import allData from "../../data/allData.json";
 const GetmoreExp = () => {
   const { experienceName } = useParams();
 
-  const getmoreData = allData.getmore.map((data) => {
-    return data;
-  });
+  const getmoreData = allData.moreExperiences[0].getmore;
+  const data = getmoreData.find((item) => item.id === experienceName);
 
-  const findID = (exp) => {
-    return exp.id === experienceName;
-  };
-
-  const data = getmoreData.find(findID);
+  if (!data) {
+    return <div>Not Found</div>;
+  }
 
   return (
     <div className="text-white">
