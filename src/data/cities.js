@@ -7,7 +7,8 @@ export const cities = [
     video: "https://www.youtube.com/watch?v=zm3tv07aKSk",
     categories: {
       see: {
-        backgroundImage: "https://cdn.goturkiye.com/izmir/2-smyrna.jpg",
+        backgroundImage:
+          "https://images.unsplash.com/photo-1582380625189-423697e32b92?q=80&w=2342&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description:
           "Ancient Smyrna is located on the mound in İzmir Bayraklı. It is a small peninsula that was surrounded by the sea to the west and south in ancient times. ",
       },
@@ -79,7 +80,7 @@ export const cities = [
 
       taste: {
         backgroundImage:
-          "https://www.bahcesehiragacbudama.com/wp-content/uploads/2019/02/zeytin-a%C4%9Fac%C4%B1.jpg",
+          "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description:
           "Culinary scholars, experts and eaters agree: the food culture in Kuşadası is spectacular.",
       },
@@ -158,7 +159,7 @@ export const cities = [
 
       touch: {
         backgroundImage:
-          "https://cdn.goturkiye.com/aydin/touch-desktop-kapak.jpg",
+          "https://cdn.img.anlatilaninotesi.com.tr/img/07e9/01/0b/1092565180_0:180:3004:1870_1920x0_80_0_0_1849709555d7bc81020177d3464917db.jpg.webp",
         description:
           "The fame of handmade pottery, maintained for many years in the district of Karacasu, has spread across the borders and found its place under the name Karacasu Pottery.",
       },
@@ -187,11 +188,10 @@ export const cities = [
 
       touch: {
         backgroundImage:
-          "https://cdn.goturkiye.com/sanliurfa/touch-desktop-kapak.jpg",
+          "https://tastepeler.org/images/galeri/karahantepe/Karahantepe-2.jpg",
         description:
           "When you take the artwork in your hands, when you wear a local outfit, when the cold waters of Halfeti, and when a pigeon, one of the most important symbols of the city, lands on your shoulder... There, you are touching Şanlıurfa.",
       },
-
       taste: {
         backgroundImage:
           "https://www.lahmajun.com.tr/images/2021/09/08/newslayt4.jpg",
@@ -209,21 +209,19 @@ export const cities = [
     categories: {
       see: {
         backgroundImage:
-          "https://cdn.goturkiye.com/denizli/see-desktop-kapak.jpg",
+          "https://wowturkey.com/dosyalar/img_20230710_193954-jpg.4020/",
         description:
           "Hierapolis, an ancient spa city in the Roman and Byzantine periods and included in the UNESCO World Heritage List, is located 20 km away from Denizli city center. ",
       },
-
       touch: {
         backgroundImage:
           "https://zaferosmanoglu.com.tr/wp-content/uploads/2021/07/Pamukkale.jpg",
         description:
           "Thermal waters of Pamukkale have offered healing to many people throughout history.",
       },
-
       taste: {
         backgroundImage:
-          "https://cdn.goturkiye.com/denizli/taste-desktop-kapak.jpg",
+          "https://www.denizlitandirkebabidernegi.com/wp-content/uploads/elementor/thumbs/slide6-scaled-qgs6rk01jdkxs7totbkvtycb93ji7t8sn2ji2dotfk.jpg",
         description:
           "Denizli cuisine draws attention with its unique rich variety of dishes and its registered traditional products such as Tavas baklava, Kale pepper, Serinhisar roasted chickpea, Çameli beans.",
       },
@@ -263,25 +261,23 @@ export const cities = [
     id: 10,
     description:
       "Located in the Upper Euphrates Section of Eastern Anatolia, Elazığ is the homeland of the Euphrates and Tigris rivers that gave life water to Mesopotamia and is a city that has been kneaded with fertile lands and Anatolian culture on a peninsula surrounded by water on three sides, like Turkey, the home of dozens of civilizations.",
-    video: "https://www.youtube.com/watch?v=lutCTfyZhwA",
+    video: "https://www.youtube.com/watch?v=i50yNXK0ry8",
     categories: {
       see: {
         backgroundImage:
-          "https://cdn.goturkiye.com/elazig/touch-desktop-kapak.jpg",
+          "https://turkic.world/media/2024/08/28/1251_tur_picture_20240828_35500967_35500947.jpg",
         description:
           "Elazığ, the homeland of the Euphrates and Tigris rivers, has a rich and long history in which many civilizations struggled to dominate its fertile lands.",
       },
-
       touch: {
         backgroundImage:
-          "http://www.elaziggezi.com/img/original-img/schema2016-08-30_15-35-28-1472560528.jpg",
+          "https://cdniys.tarimorman.gov.tr/api/File/GetImage/425/Haber/13356/13419/ResimGaleri/0/1keban_banner.jpg",
         description:
           "Euphrates River and Keban Dam Lake that give life to the region, the springs that are source of health, unique lakes, and sunken cities...",
       },
-
       taste: {
         backgroundImage:
-          "http://elaziggezi.com/img/original-img/schema32016-09-01_13-53-29-1472727209.jpg",
+          "https://www.tgrthaber.com/mavikadin/wp-content/uploads/harput-koftesi-tarifi-nasil-yapilir-piserken-asla-dagilmayan-elazigin-yoresel-yemegi-2.jpg",
         description:
           "Elazığ cuisine is one of the rich and well-established Anatolian cuisines. It bears the traces of traditional Turkish cuisine culture.",
       },

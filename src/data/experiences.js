@@ -19,13 +19,13 @@ export const experiences = [
       // section2
       {
         name: "Thermals & Springs",
-        bg: "https://cdn.goturkiye.com/denizli/see-desktop-kapak.jpg",
+        bg: "https://www.en-vols.com/wp-content/uploads/afmm/2025/01/pamukkale.jpg",
         p: "Natural Hot Springs have been resources to prevent and treat diseases, reduce stress and improve the quality of life since antiquity.",
       },
       // section3
       {
         name: "Turkish Hamam",
-        bg: "https://www.proartsauna.com/files/2020/11/klasik-turk-hamami-28.jpg",
+        bg: "https://istanbulvacationtips.com/wp-content/uploads/2019/10/what-to-expect-turkish-hamam-istanbul-vacation-tips.jpg",
         p: "The tradition of purification through cleansing is a therapeutic ritual that extends back to Ancient Rome and is an essential part of Turkish culture.",
       },
     ],
@@ -46,19 +46,17 @@ export const experiences = [
     categories: [
       {
         name: "Trekking & Hiking",
-        bg: "https://cdn.goturkiye.com/sports/trekking-hiking-desktop-ana-sayfa-kapak.jpg",
+        bg: "https://outdoorinturkey.com/wp-content/uploads/2024/12/likya_dogu_001.jpg",
         p: "Trekking allows you to get away from the crowds and discover the true beauty of Türkiye, the friendly villagers, the remote historic sites, and the country’s stunning scenery.",
       },
-
       {
         name: "Rock climbing",
         bg: "https://www.discovergreece.com/sites/default/files/2020-12/You%20can%20be%20inverted%20on%20an%20overhang%20with%20the%20incredible%20colours%20of%20the%20Aegean%20as%20a%20backdrop%20in%20the%20morning.jpg",
         p: "Türkiye is a truly unmatched destination for rock climbers with crags for every season, a variety of available rock-climbing styles, and friendly, hospitable locals.",
       },
-
       {
         name: "Skydiving",
-        bg: "https://outdoorturkiye.com.tr/storage/blog/c561622c1bb47f69bd6d0bbc3eaf1156.jpg",
+        bg: "https://www.definetours.com/wp-content/uploads/2023/01/WhatsApp-Video-2022-09-03-at-21.49.40.00_04_59_54.Still001.png",
         p: "Skydiving is an incredibly easy, safe, and enjoyable way to experience an unforgettable journey through Türkiye’s blue sky!",
       },
     ],
