@@ -1,30 +1,30 @@
-import ReactPlayer from "react-player";
 import { useParams } from "react-router-dom";
-import { cities } from "../../data/cities";
+import { experiences } from "../../data/experiences";
+import Slider from "./Slider";
 
-const CitiesLanding = () => {
-  const { cityname } = useParams();
+const ExperienceLanding = () => {
+  const { experienceName } = useParams();
+  const experience = experiences.find(({ URL }) => URL === experienceName);
+
+  if (!experience) {
+    return null;
+  }
+
+  const { name, p, slides } = experience;
 
   return (
-    <div className="text-white w-full h-full">
-      {cities.map(({ name, id, p, video }) =>
-        name === cityname ? (
-          <div
-            key={id}
-            className="flex flex-col container mx-auto pt-10 lg:pt-60 lg:flex-row"
-          >
-            <div className="flex flex-col justify-center w-full lg:w-1/2">
-              <h1 className="text-4xl lg:text-8xl">{name}</h1>
-              <p className="pt-10">{p}</p>
-            </div>
-            <div className="flex justify-center items-center w-full lg:w-1/2 lg:ml-10">
-              <ReactPlayer url={video} muted className="w-full" height={731} />
-            </div>
-          </div>
-        ) : null
-      )}
+    <div className="text-white w-full">
+      <div className="flex flex-col container mx-auto px-4 pt-28 pb-16 gap-10 lg:flex-row lg:items-center lg:min-h-screen lg:pt-16">
+        <div className="flex flex-col justify-center w-full lg:w-5/12">
+          <h1 className="text-5xl lg:text-7xl font-bold">{name}</h1>
+          <p className="pt-8 text-lg leading-relaxed text-gray-300">{p}</p>
+        </div>
+        <div className="w-full lg:w-7/12">
+          <Slider images={slides} alt={name} />
+        </div>
+      </div>
     </div>
   );
 };
 
-export default CitiesLanding;
+export default ExperienceLanding;
