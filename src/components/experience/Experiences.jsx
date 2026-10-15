@@ -1,19 +1,26 @@
 import { useParams } from "react-router-dom";
 import { experiences } from "../../data/experiences";
-import SectionLeft from "./SectionLeft";
+import ImageSection from "../section/ImageSection";
 
 const Experiences = () => {
   const { experienceName } = useParams();
-  const findURL = (exp) => {
-    return exp.URL === experienceName;
-  };
-  const data = experiences.find(findURL);
+  const data = experiences.find(({ URL }) => URL === experienceName);
+
+  if (!data) {
+    return null;
+  }
 
   return (
     <>
-      {data.categories.map((x, i) => {
-        return <SectionLeft key={i} name={x.name} bg={x.bg} p={x.p} />;
-      })}
+      {data.categories.map(({ name, bg, p }) => (
+        <ImageSection
+          key={name}
+          title={name}
+          description={p}
+          image={bg}
+          to={`/experience/getmore/${name.replace(/\s/g, "")}`}
+        />
+      ))}
     </>
   );
 };
