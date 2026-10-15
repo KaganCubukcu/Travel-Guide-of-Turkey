@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../navbar/Navbar";
 
 const Landing = () => {
   const handleScroll = () => {
@@ -15,7 +14,6 @@ const Landing = () => {
         alt="landing1"
         className="absolute inset-0 object-cover w-full h-full z-0"
       />
-      <Navbar />
       <div className="flex justify-center flex-col items-center h-screen z-10 absolute inset-0">
         <h1 className="text-white text-3xl md:text-4xl lg:text-8xl font-bold text-center px-4">
           TÜRKİYE

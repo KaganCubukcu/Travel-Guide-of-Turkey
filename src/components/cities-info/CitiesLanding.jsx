@@ -7,12 +7,12 @@ const CitiesLanding = () => {
 
   return (
     <div className="text-white w-full h-full">
-      {cities.map(({ name, id, p, video }) =>
+      {cities.map(({ name, id, description, video }) =>
         name === cityname ? (
           <div key={id} className="flex flex-col mx-auto pt-10 lg:pt-60">
             <div className="flex flex-col justify-center items-center w-full">
               <h1 className="text-4xl lg:text-8xl">{name}</h1>
-              <p className="py-24 text-center container">{p}</p>
+              <p className="py-24 text-center container">{description}</p>
             </div>
             <div className="flex justify-center items-center w-full">
               <ReactPlayer

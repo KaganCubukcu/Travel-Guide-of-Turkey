@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import allData from "../../data/allData.json";
 import GetmoreLayout from "./GetmoreLayout";
 
@@ -9,7 +9,7 @@ const GetmoreCity = () => {
   const data = getmoreData.find((item) => item.id === cityName);
 
   if (!data) {
-    return <div>Not Found</div>;
+    return <Navigate to="/404" replace />;
   }
 
   return (
