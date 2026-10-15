@@ -5,7 +5,7 @@ import allData from "../../data/allData.json";
 const MainCitiesCard = () => {
   return (
     <Card
-      items={allData.cities}
+      items={allData.destinations.cities}
       linkPrefix="/cities"
       showMoreLink="/All-cities"
       moreText="More Cities"

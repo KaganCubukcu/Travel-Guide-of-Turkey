@@ -6,12 +6,12 @@ const RegionCard = () => {
   return (
     <>
       <Card
-        items={allData.regions.slice(0, 4)}
+        items={allData.destinations.regions.slice(0, 4)}
         linkPrefix="/regions"
         gridCols="grid-cols-4"
       />
       <Card
-        items={allData.regions.slice(-3)}
+        items={allData.destinations.regions.slice(-3)}
         linkPrefix="/regions"
         gridCols="flex items-center justify-evenly"
       />

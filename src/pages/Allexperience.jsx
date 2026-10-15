@@ -8,7 +8,7 @@ const Allexperience = () => {
     <div className="bg-black w-full h-full ">
       <Navbar />
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 container mx-auto pt-24">
-        {allData.experiences.map((experience) => (
+        {allData.travelExperiences.categories.map((experience) => (
           <Link
             key={experience.id}
             to={`/experience/${experience.name.replace(/\s/g, "")}`}

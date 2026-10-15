@@ -5,7 +5,7 @@ import allData from "../../data/allData.json";
 const MainExperiencesCard = () => {
   return (
     <Card
-      items={allData.experiences}
+      items={allData.travelExperiences.categories}
       linkPrefix="/experience"
       showMoreLink="/All-experiences"
       moreText="More Experiences"
