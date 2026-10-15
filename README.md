@@ -17,7 +17,7 @@ This project is inspired by the [goTürkiye](https://goturkiye.com/) page and cr
 
 ## Technologies used
 
-- React
+- React (Vite)
 - React Router Dom
 - Tailwind CSS for styling
 - JSON for data management
@@ -50,7 +50,7 @@ To get this project up and running on your local machine, follow these steps:
 4. Start the development server:
 
    ```
-   npm start
+   npm run dev
    ```
 
-5. Open your browser and visit `http://localhost:3000` to view the application.
+5. Open your browser and visit `http://localhost:5173` to view the application.
