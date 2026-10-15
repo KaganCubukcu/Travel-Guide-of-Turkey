@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import allData from "../../data/allData.json";
+import GetmoreLayout from "./GetmoreLayout";
 
 const GetmoreExp = () => {
   const { experienceName } = useParams();
@@ -12,29 +13,12 @@ const GetmoreExp = () => {
   }
 
   return (
-    <div className="text-white">
-      <div
-        className="w-full h-[600px] bg-cover bg-center "
-        style={{
-          backgroundImage: `url(${data.backgroundImage})`,
-        }}
-      ></div>
-      <div className="w-full -mt-20 bg-gradient-to-r from-[#000000]">
-        <div className="container mx-auto">
-          <h1 className=" text-5xl pt-5">{data.title}</h1>
-          <h4 className=" text-2xl mt-5 mb-5">{data.subtitle}</h4>
-        </div>
-        <div className="container mx-auto pr-4 md:pr-96 pb-10">
-          {data.content.map((x, i) => {
-            return (
-              <p key={i} className="mt-3">
-                {x}
-              </p>
-            );
-          })}
-        </div>
-      </div>
-    </div>
+    <GetmoreLayout
+      backgroundImage={data.backgroundImage}
+      heading={data.title}
+      tagline={data.subtitle}
+      content={data.content}
+    />
   );
 };
 
