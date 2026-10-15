@@ -9,14 +9,14 @@ const Footer = () => {
           <img src={turkeyLogo} alt="turkey-logo" />
         </div>
         <div className="flex mt-5">
-          <a href="https://github.com/KaganCubukcu" target="_blank">
+          <a href="https://github.com/KaganCubukcu" target="_blank" rel="noopener noreferrer">
             <img
               src={github}
               alt="github_icon"
               className="cursor-pointer mr-5"
             />
           </a>
-          <a href="https://www.linkedin.com/in/kagancubukcu/" target="_blank">
+          <a href="https://www.linkedin.com/in/kagancubukcu/" target="_blank" rel="noopener noreferrer">
             <img
               src={linkedin}
               alt="linkedin_icon"
